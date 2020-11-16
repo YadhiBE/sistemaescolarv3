@@ -1,0 +1,15 @@
+{
+    "name": "yadhi/sistemaescolarv3",
+    "description": "Actualizacion de sistema escolar con bulma y illuminate version 3",
+    "type": "project",
+    "authors": [
+        {
+            "name": "YadhiBE",
+            "email": "sempaiiiiiyadhi@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^6.19",
+        "illuminate/events": "^6.19"
+    }
+}

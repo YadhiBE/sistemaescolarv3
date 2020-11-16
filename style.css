@@ -1,0 +1,19 @@
+html {
+    background-color: rgb(224, 255, 245);
+}
+
+.row {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 45px;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.buton {
+    margin-left: 200px;
+}

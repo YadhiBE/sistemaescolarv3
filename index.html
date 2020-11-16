@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema escolar</title>
+    <link rel="stylesheet" href="node_modules\bulma\css\bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br><br>
+    <div class="columns">
+        <div class="column is-full"><p class="is-size-1-fullhd has-text-centered has-background-white">Sistema escolar</p></div>
+    </div>
+    <div class= "row">
+        <h1 class="has-text-centered is-size-3 has-text-weight-light mb-6">Ingresar</h1>
+        <form action="login.php" method="post">
+            <div class="field">
+                <label class="label">Nombre de usuario</label>
+                <div class="control">
+                  <input class="input" type="text" id="usuario" name="usuario" placeholder="Profesor /  Alumno">
+                </div>
+              </div>
+              
+              <div class="field">
+                <label class="label">Contraseña</label>
+                <div class="control">
+                  <input class="input" type="password" id="contraseña" name="contraseña" placeholder="profesor /  alumno">
+                </div>
+              </div>
+            <input class="button is-primary has-text-centered mt-2 is-rounded buton" type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
